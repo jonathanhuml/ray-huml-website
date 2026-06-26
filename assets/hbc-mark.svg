@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">HBC monogram</title>
+  <desc id="desc">A formal burgundy and gold monogram for Huml Biopharma Consulting.</desc>
+  <rect width="160" height="160" fill="#ffffff"/>
+  <rect x="8" y="8" width="144" height="144" fill="none" stroke="#541313" stroke-width="4"/>
+  <rect x="18" y="18" width="124" height="124" fill="none" stroke="#a9802b" stroke-width="2"/>
+  <line x1="32" y1="42" x2="128" y2="42" stroke="#d5c6a5" stroke-width="2"/>
+  <line x1="32" y1="118" x2="128" y2="118" stroke="#d5c6a5" stroke-width="2"/>
+  <text x="80" y="92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#171412">HBC</text>
+  <circle cx="80" cy="80" r="55" fill="none" stroke="#7d1f1f" stroke-width="2"/>
+  <circle cx="80" cy="80" r="47" fill="none" stroke="#a9802b" stroke-width="1"/>
+</svg>

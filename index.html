@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Huml Biopharma Consulting LLC provides independent biopharma advisory support for clinical development, program strategy, and scientific communication."
+  />
+  <title>Huml Biopharma Consulting LLC</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --ink: #171412;
+      --muted: #5f5a54;
+      --rule: #d5c6a5;
+      --gold: #a9802b;
+      --red: #7d1f1f;
+      --red-dark: #541313;
+      --panel: #f8f7f4;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    body {
+      border-top: 6px solid var(--red-dark);
+    }
+
+    .page {
+      width: min(820px, calc(100% - 32px));
+      margin: 32px auto 22px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 132px 1fr;
+      gap: 18px;
+      align-items: center;
+      padding-bottom: 18px;
+      border-bottom: 2px solid var(--rule);
+    }
+
+    .headshot {
+      width: 132px;
+      height: 132px;
+      display: block;
+      object-fit: cover;
+      border: 3px solid var(--red-dark);
+      box-shadow: 0 0 0 2px var(--gold);
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 38px;
+      line-height: 1.08;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      max-width: 620px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    nav {
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    nav a {
+      margin-right: 14px;
+      white-space: nowrap;
+    }
+
+    a {
+      color: var(--red);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:visited {
+      color: var(--red-dark);
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--ink);
+      background: #f2df9b;
+      outline: none;
+    }
+
+    main {
+      margin-top: 28px;
+    }
+
+    section {
+      margin: 28px 0;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 25px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 18px 0 6px;
+      font-size: 18px;
+      line-height: 1.25;
+      color: var(--red-dark);
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 13px;
+    }
+
+    .intro {
+      font-size: 19px;
+      line-height: 1.52;
+    }
+
+    .divider {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 28px 0;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .service {
+      border-top: 3px solid var(--gold);
+      background: var(--panel);
+      padding: 14px 14px 12px;
+      min-height: 148px;
+      box-sizing: border-box;
+    }
+
+    .service p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .note {
+      border-left: 4px solid var(--red);
+      padding: 10px 0 10px 16px;
+      color: var(--muted);
+      background: linear-gradient(90deg, rgba(169, 128, 43, 0.08), transparent);
+    }
+
+    .contact-box {
+      border: 1px solid var(--rule);
+      border-top: 4px solid var(--red-dark);
+      padding: 16px;
+      background: #fffdf7;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding-top: 14px;
+      border-top: 2px solid var(--rule);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+    }
+
+    .small-caps {
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 700px) {
+      .page {
+        width: min(100% - 24px, 820px);
+        margin-top: 20px;
+      }
+
+      header {
+        grid-template-columns: 92px 1fr;
+        gap: 14px;
+      }
+
+      .headshot {
+        width: 92px;
+        height: 92px;
+      }
+
+      h1 {
+        font-size: 31px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 4px 12px 4px 0;
+      }
+
+      .service-list {
+        grid-template-columns: 1fr;
+      }
+
+      .service {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 460px) {
+      header {
+        grid-template-columns: 1fr;
+      }
+
+      .headshot {
+        width: 112px;
+        height: 112px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img class="headshot" src="assets/raymond-huml.jpg" alt="Raymond A. Huml" />
+      <div>
+        <p class="small-caps">Independent Biopharma Advisory</p>
+        <h1>Huml Biopharma Consulting LLC</h1>
+        <p class="subtitle">Experienced counsel for biopharmaceutical teams making clinical, scientific, and strategic decisions.</p>
+        <nav aria-label="Site links">
+          <a href="#about">About</a>
+          <a href="#consulting">Consulting</a>
+          <a href="#contact">Contact</a>
+          <a href="https://www.linkedin.com/in/raymond-a-huml-4729b923/">LinkedIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p class="intro">
+          Raymond A. Huml provides independent consulting for companies and organizations working in biopharmaceutical development. The practice is built for thoughtful, senior-level support: clear analysis, practical recommendations, and direct communication.
+        </p>
+        <p>
+          Huml Biopharma Consulting LLC works with clients who need an experienced outside perspective on development strategy, program planning, scientific positioning, and the many decisions that sit between promising science and durable execution.
+        </p>
+      </section>
+
+      <hr class="divider" />
+
+      <section id="consulting">
+        <h2>Consulting</h2>
+        <p>
+          Engagements are tailored to the question at hand, from a focused review of materials to an ongoing advisory relationship.
+        </p>
+
+        <div class="service-list" aria-label="Consulting areas">
+          <article class="service">
+            <h3>Development Strategy</h3>
+            <p>Program framing, milestone planning, risk assessment, and decision support for biopharmaceutical development teams.</p>
+          </article>
+          <article class="service">
+            <h3>Scientific Communication</h3>
+            <p>Review and refinement of technical narratives for internal teams, partners, investors, and external audiences.</p>
+          </article>
+          <article class="service">
+            <h3>Executive Advisory</h3>
+            <p>Independent perspective for leaders weighing clinical, operational, regulatory, or partnership considerations.</p>
+          </article>
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-box">
+          <p>
+            For consulting inquiries, contact Raymond Huml by email or connect through LinkedIn.
+          </p>
+          <p class="note">
+            Email: <a href="mailto:raymondhuml@gmail.com">raymondhuml@gmail.com</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Huml Biopharma Consulting LLC</p>
+      <p>Contact: <a href="mailto:raymondhuml@gmail.com">raymondhuml@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
